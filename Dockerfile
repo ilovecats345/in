@@ -4,7 +4,7 @@ RUN apk add --no-cache git
 
 RUN git clone https://github.com/UseInterstellar/Interstellar.git
 
-WORKDIR /inter
+WORKDIR /Interstellar
 
 RUN npm install
 
